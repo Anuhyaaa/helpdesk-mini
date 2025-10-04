@@ -1,5 +1,63 @@
 # 🎫 Helpdesk Mini
 
+A simple PHP + MySQL helpdesk system for managing support tickets. Built with a clean d## 🌐 Usage
+
+1. **Create Tickets**: Use the "New Ticket" form
+2. **Manage Status**: Update ticket status in ticket details
+3. **Add Comments**: Collaborate using the comment system
+4. **Track Progress**: Monitor tickets with priority and due date alerts
+
+## 📁 Project Structure
+
+```
+helpdesk-mini/
+├── 📄 Core Application
+│   ├── index.php              # Main ticket listing
+│   ├── new_ticket.php         # Create new tickets  
+│   ├── ticket.php             # Ticket details & comments
+│   ├── save_ticket.php        # Process ticket creation
+│   ├── update_status.php      # Update ticket status
+│   ├── add_comment.php        # Add comments
+│   └── delete_ticket.php      # Delete tickets
+├── 🗄️ Database & Config
+│   ├── schema.sql             # Database structure
+│   ├── db_connect.php         # Local database connection
+│   └── db_connect_hosting.php # Hosting database config
+├── 🎨 Frontend & Layout
+│   ├── header.php             # Common header
+│   ├── footer.php             # Common footer
+│   └── style.css              # Dark theme CSS
+├── 🛠️ Setup & Tools
+│   ├── dashboard.php          # Project overview
+│   ├── create_database.php    # Auto database setup
+│   ├── test_db.php           # Connection tester
+│   └── setup_database.php    # Manual setup guide
+└── 📚 Documentation
+    ├── README.md              # This file
+    ├── PUBLIC_DEPLOYMENT.md   # Hosting guide
+    └── GITHUB_SETUP.md        # Git instructions
+```
+
+## 🚀 Deployment
+
+### Ready-to-Deploy Package
+A deployment-ready ZIP file is included for easy hosting upload.
+
+### Supported Hosting Platforms
+- ✅ **000webhost** (Free)
+- ✅ **InfinityFree** (Free) 
+- ✅ **Heroku** (Free tier)
+- ✅ **Railway** (Free tier)
+- ✅ **Any PHP/MySQL hosting**eme and responsive design.
+
+**Created by Anuhya**
+
+## 🌐 Live Demo
+
+**🚀 [View Live Demo](https://anuhya-helpdesk.000webhostapp.com)** *(Update this URL after deployment)*
+
+## 🚀 Featureslpdesk Mini
+
 A simple PHP + MySQL helpdesk system for managing support tickets. Built with a clean dark theme and responsive design.
 
 **Created by Anuhya**
@@ -21,7 +79,7 @@ A simple PHP + MySQL helpdesk system for managing support tickets. Built with a 
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 
-### Quick Setup
+### Local Development Setup
 
 1. **Clone the repository**:
    ```bash
@@ -46,6 +104,19 @@ A simple PHP + MySQL helpdesk system for managing support tickets. Built with a 
    ```
    http://localhost/helpdesk-mini/
    ```
+
+### 🌐 Public Deployment
+
+This project is deployed and accessible online at:
+**[Live Demo - Update URL after deployment](https://your-domain.000webhostapp.com)**
+
+#### Deploy Your Own Copy:
+1. **Free Hosting Options**: 000webhost, InfinityFree, Heroku
+2. **Upload Files**: Use the provided deployment package
+3. **Database Setup**: Import `schema.sql` 
+4. **Update Config**: Modify `db_connect.php` with hosting credentials
+
+See `PUBLIC_DEPLOYMENT.md` for detailed hosting instructions.
 
 ## �️ Database Schema
 
