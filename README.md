@@ -52,9 +52,7 @@ A deployment-ready ZIP file is included for easy hosting upload.
 
 **Created by Anuhya**
 
-## 🌐 Live Demo
-
-**🚀 [View Live Demo](https://anuhya-helpdesk.000webhostapp.com)** *(Update this URL after deployment)*
+> 🚧 **Live Demo Coming Soon** - Currently working on deployment to hosting service
 
 ## 🚀 Featureslpdesk Mini
 
